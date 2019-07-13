@@ -16,6 +16,7 @@ flex: 1 -> permite aumentar e espremer
 
 flex-wrap: wrap -> permite quebrar linha, primeiro elemento começa no inicio
 flex-wrap: wrap-reverse -> permite quebrar linha, primeiro elemento começa no fim
+
 ALINHAMENTO:
 	row{
 align-items -> alinhar verticalmente
@@ -44,8 +45,8 @@ justify-content: space-araound -> coloca um espaço igual entre os itens com espa
 align-content -> alinhar elementos que estão em mais de uma linha
 align-content: space-araound -> coloca um espaço igual entre os itens com espaço no começo e fim (padrão)
 
-
-PROPRIEDADES-ORDEM:
+align-items: baseline -> alinha todo texto na mesma linha
+PROPRIEDADES-ORDEM: 
 	colocar order nas classes
 .red{
 order:1;
@@ -59,4 +60,10 @@ order:2;
 order:0;
 }
 
+PROPRIEDADES:
 
+padding: 0 12px; -> primeiro valor vvertical segundo valor horizontal
+
+padding: 0 12px 10px 5px; -> segue sentido horario
+
+box-shadow: 0 1px 3px -> primeiro valor quantos px a direita se posicionar horizontalmente, segundo verticalmente, terceiro blur 
